@@ -8,7 +8,7 @@ import ReactIcon from "../assets/react.png";
 
 const Skills = () => {
     return (
-        <div id="skills" name="skills" className="bg-gradient-to-b from-gray-900 to-gray-700 text-white h-screen">
+        <div id="skills" name="skills" className="bg-gradient-to-b from-gray-900 to-gray-700 text-white pt-32">
             <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center
             w-full h-full">
                 <div>
