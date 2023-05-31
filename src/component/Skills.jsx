@@ -12,8 +12,8 @@ const Skills = () => {
             <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center
             w-full h-full">
                 <div>
-                    <p className="text-4xl md:text-6xl font-bold inline border-b-4 border-gray-700 text-gray-300">Experience</p>
-                    <p className="py-4 text-lg md:text-xl font-[Monospace]">// These are the technologies I have worked with</p>
+                    <p className="text-4xl md:text-6xl font-bold inline border-b-4 border-gray-700 text-white">Experience</p>
+                    <p className="py-4 text-lg md:text-xl text-white font-[Monospace]">// These are the technologies I have worked with</p>
                 </div>
 
                 <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8">

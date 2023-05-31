@@ -8,12 +8,14 @@ const Nav = () => {
     { name: 'PROJECTS', link: 'projects' },
   ];
 
-  let[open, setOpen] = useState(false);
+  const [activeLink, setActiveLink] = useState(null);
+  const [open, setOpen] = useState(false);
 
   const scrollToSection = (event, sectionId) => {
     event.preventDefault();
     const section = document.getElementById(sectionId);
     section.scrollIntoView({ behavior: 'smooth' });
+    setActiveLink(sectionId);
   };
 
   return (
@@ -36,12 +38,14 @@ const Nav = () => {
         <ul
           className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-gray-900 md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
             open ? 'top-20 opacity-100' : 'top-[-490px]'} md:opacity-100 opacity-0`}
-            >
+        >
           {Links.map((link) => (
             <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7">
               <a
                 href={`#${link.link}`}
-                className="text-gray-100 hover:text-yellow-500"
+                className={`text-gray-100 hover:text-yellow-500 selection:text-green-500 ${
+                  activeLink === link.link ? 'text-yellow-500' : ''
+                }`}
                 onClick={(event) => scrollToSection(event, link.link)}
               >
                 {link.name}
@@ -55,4 +59,5 @@ const Nav = () => {
 };
 
 export default Nav;
+
 
