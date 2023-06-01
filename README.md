@@ -5,10 +5,10 @@
 This application is my personal portfolio to be shared with potential employers. It was made using React and Tailwind. 
 
 ## Table of Contents
--[Description](#description)
--[Installation](#installation)
--[Technologies-Used](#technologies-used)
--[Links](#links)
+* [Description](#description)
+* [Installation](#installation)
+* [Technologies-Used](#technologies-used)
+* [Links](#links)
 
 ## Installation
 
