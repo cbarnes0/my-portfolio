@@ -6,7 +6,7 @@ const Projects = () => {
   const project = data;
 
   return (
-    <div name='work' className='w-full md:h-screen text-gray-300 bg-gray-700'>
+    <div id='projects' name='work' className='w-full md:h-screen text-gray-300 bg-gray-700'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
           <p className='text-4xl md:text-6xl font-bold inline border-b-4 border-gray-900 text-white'>
@@ -33,7 +33,7 @@ const Projects = () => {
       </span>
       <div className="pt-8 text-center ">
      
-        <a href='/' target="_blank">
+        <a href={item.github} target="_blank">
           <button
             className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg"
@@ -42,7 +42,7 @@ const Projects = () => {
           </button>
         </a>
        
-        <a href='/' target="_blank">
+        <a href={item.live} target="_blank">
           <button
             className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg"

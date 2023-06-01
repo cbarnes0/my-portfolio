@@ -1,5 +1,6 @@
 import './App.css';
 import AboutMe from './component/AboutMe';
+import Contact from './component/Contact';
 import Footer from './component/Footer';
 import Nav from "./component/Nav";
 import Projects from './component/Projects';
@@ -12,8 +13,10 @@ function App() {
       <AboutMe />
       <Skills />
       <Projects />
-      <div className='bg-gray-800 h-screen'></div>
+      <Contact />
       <Footer />
+      {/* <div className='bg-gray-800 h-screen'></div> */}
+    
       
     </>
   );

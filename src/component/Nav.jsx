@@ -3,9 +3,9 @@ import React, { useState } from 'react';
 const Nav = () => {
   const Links = [
     { name: 'HOME', link: 'home' },
-    { name: 'ABOUT', link: 'about' },
     { name: 'SKILLS', link: 'skills' },
     { name: 'PROJECTS', link: 'projects' },
+    { name: 'CONTACT', link: 'contact'}
   ];
 
   const [activeLink, setActiveLink] = useState(null);
@@ -26,6 +26,14 @@ const Nav = () => {
             <ion-icon name="checkmark-circle-outline"></ion-icon>
           </span>
           Carson Barnes
+          <div className="flex mt-4 ml-6 pt-2 space-x-6 sm:justify-center sm:mt-0">
+              <a href="https://github.com/cbarnes0" target="_blank" className="text-gray-500 hover:text-gray-100 dark:hover:text-white text-3xl">
+              <ion-icon name="logo-github"></ion-icon>
+              </a>
+              <a href="https://www.linkedin.com/in/cb019803/" target="_blank" className="text-gray-500 hover:text-gray-100 dark:hover:text-white text-3xl">
+              <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+          </div>
         </div>
 
         <div
