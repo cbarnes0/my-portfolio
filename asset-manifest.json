@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.5f00a1ac.css",
-    "main.js": "/my-portfolio/static/js/main.e100a110.js",
+    "main.js": "/my-portfolio/static/js/main.c7c9a9d8.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/MemeGeneratorImg.jpeg": "/my-portfolio/static/media/MemeGeneratorImg.d63f0839c78b2186a9c6.jpeg",
     "static/media/animatch-img.jpeg": "/my-portfolio/static/media/animatch-img.8195cc1383a6a25ca9ff.jpeg",
     "static/media/profilepic.jpg": "/my-portfolio/static/media/profilepic.71e733fe89759971f733.jpg",
-    "static/media/comingsoon.jpeg": "/my-portfolio/static/media/comingsoon.87b97d23a65277d2c2e7.jpeg",
     "static/media/notetaker.png": "/my-portfolio/static/media/notetaker.0a770d5edd1ee9573490.png",
+    "static/media/codecollab.png": "/my-portfolio/static/media/codecollab.b3f1e86df813d773f09f.png",
     "static/media/texteditor.png": "/my-portfolio/static/media/texteditor.e56eba5376f671920756.png",
     "static/media/weatherapp.jpeg": "/my-portfolio/static/media/weatherapp.fdb078adf20ae1099ca3.jpeg",
     "static/media/react.png": "/my-portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
@@ -18,11 +18,11 @@
     "static/media/javascript.png": "/my-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/my-portfolio/index.html",
     "main.5f00a1ac.css.map": "/my-portfolio/static/css/main.5f00a1ac.css.map",
-    "main.e100a110.js.map": "/my-portfolio/static/js/main.e100a110.js.map",
+    "main.c7c9a9d8.js.map": "/my-portfolio/static/js/main.c7c9a9d8.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5f00a1ac.css",
-    "static/js/main.e100a110.js"
+    "static/js/main.c7c9a9d8.js"
   ]
 }
